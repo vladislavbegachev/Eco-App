@@ -4,7 +4,7 @@
   
 Для тестирования необходимо установить приложение Unity remote на ios или android устройство
 ____
-### Для IOS
+### Для IOS (Здесь все просто)
 Build Settings -> ios, после установки Run Device -> All Compatible  
 Затем Edit -> editor -> device -> Any ios device
 ### Для Android
