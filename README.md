@@ -1,10 +1,12 @@
 # Eco-App
+____
+## Перед редактированием File -> Build Settings -> выберите IOS или Android
 
 ## Тестирование на мобильном устройстве
   
 Для тестирования необходимо установить приложение Unity remote на ios или android устройство
 ____
-### Для IOS (Здесь все просто)
+### Для IOS
 Build Settings -> ios, после установки Run Device -> All Compatible  
 Затем Edit -> editor -> device -> Any ios device
 ### Для Android
