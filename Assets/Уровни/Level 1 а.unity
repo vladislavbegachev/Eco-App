@@ -152,15 +152,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e84709d56c3668c49a70d2f7c3246a81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberToSpawn: 8
+  numberToSpawn: 6
   spawnPool:
-  - {fileID: 6735815998906264633, guid: d59a0cf5b876d5d4399601a21bc4e60c, type: 3}
+  - {fileID: 3471020681470878044, guid: 3d8135d242e222a48b9e459b522ba2ce, type: 3}
   - {fileID: 5014490931839516759, guid: 8df34ca8de70c4d41b7ac4457be61e85, type: 3}
   - {fileID: 4425812519635095123, guid: 236741693479db540b81feb793747573, type: 3}
   - {fileID: 5568824829727259647, guid: 5cd2af0999b37b8488aeb3237eef39e1, type: 3}
-  - {fileID: 5568824829727259647, guid: 5cd2af0999b37b8488aeb3237eef39e1, type: 3}
-  - {fileID: 5568824829727259647, guid: 5cd2af0999b37b8488aeb3237eef39e1, type: 3}
   - {fileID: 6973071710934200180, guid: f5e18430a877a6f418b67e82906dc741, type: 3}
+  - {fileID: 4186574842533033469, guid: d70b09a355a13504c9a7011548186670, type: 3}
+  - {fileID: 7941495620078176866, guid: 23e6b4d199433c246860a9c794b8ca92, type: 3}
+  - {fileID: 9163956599972593792, guid: 0bc8a37e1669ca545808aa84d227d55c, type: 3}
+  - {fileID: 2433334434329541369, guid: cc19a727e1057cc4db077ef93a741987, type: 3}
+  - {fileID: 529119220143981706, guid: f11f76e27ee97744784825b57f30eb56, type: 3}
+  - {fileID: 636816495593742859, guid: 579f509ccfc9ccb4984993fde2b22604, type: 3}
+  - {fileID: 6509193454305813913, guid: 88e6d5a44d5ec734ebbb0487d251e4ec, type: 3}
+  - {fileID: 3398943068313879284, guid: 801bfbffa8523a248ae2000f6f5162d7, type: 3}
+  - {fileID: 4729736651992909647, guid: 3bdfcae0edbddf44286926712c9a95b3, type: 3}
+  - {fileID: 989616306345611542, guid: cbb003b0422d5f4498a4794652b69050, type: 3}
+  - {fileID: 1132511067502679078, guid: 5bbec20561402234c923ff4add41f52c, type: 3}
+  - {fileID: 4684787416744725795, guid: 24cb83909fafaec4c91af549508ca3d3, type: 3}
+  - {fileID: 8682369735567188593, guid: 07463ef9302a52848ad9e0f494b8b8de, type: 3}
   quad: {fileID: 691525104}
 --- !u!4 &482689298
 Transform:
@@ -301,7 +312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47b7d83b8d0c3114fa4d5bba72bb5f85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NumberOfObjects: 8
+  NumberOfObjects: 6
 --- !u!4 &882009249
 Transform:
   m_ObjectHideFlags: 0
@@ -402,7 +413,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1445107445}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.22879249, y: -0.27111205, z: -4.31535}
+  m_LocalPosition: {x: -3, y: -0.27111205, z: -4.31535}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
