@@ -21,7 +21,7 @@ public class BinSpawner : MonoBehaviour
         GameObject toSpawn;
         MeshCollider c = quad.GetComponent<MeshCollider>();
 
-        float screenX = c.bounds.min.x + 2;
+        float screenX = transform.position.x;
         float screenY = c.bounds.min.y + 2; 
         Vector2 pos;
 
@@ -33,7 +33,7 @@ public class BinSpawner : MonoBehaviour
 
             Instantiate(toSpawn, pos, toSpawn.transform.rotation);
 
-            screenX += 4;
+            screenX += (float)toSpawn.GetComponent<Renderer>().bounds.max.x + (float)0.85;
 
         }
     }
