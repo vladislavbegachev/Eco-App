@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 3491510066264348824}
   - component: {fileID: 4818779502084641439}
   - component: {fileID: 5849075835326932031}
-  - component: {fileID: 5809285539626360974}
   - component: {fileID: 2759652505862045743}
+  - component: {fileID: -543092994316411105}
   m_Layer: 6
   m_Name: "\u043A\u043E\u043D\u0441\u0435\u0440\u0432\u043D\u0430\u044F-\u0431\u0430\u043D\u043A\u04304"
   m_TagString: "\u0436\u0435\u043B\u0435\u0437\u043E"
@@ -97,23 +97,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbc3bc88a00922540b9b0fd300accce2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelController: {fileID: 0}
---- !u!58 &5809285539626360974
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8257275755763466728}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 10.24
 --- !u!50 &2759652505862045743
 Rigidbody2D:
   serializedVersion: 4
@@ -135,3 +118,108 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!60 &-543092994316411105
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8257275755763466728}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.48, y: 20.48}
+    newSize: {x: 20.48, y: 20.48}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.32, y: -7.54}
+      - {x: -0.29999998, y: -7.52}
+      - {x: -0.29999998, y: -7.22}
+      - {x: 0.01, y: -7.23}
+      - {x: 0.35, y: -6.93}
+      - {x: 2.09, y: -5.15}
+      - {x: 2.4299998, y: -4.8399997}
+      - {x: 3.22, y: -4}
+      - {x: 3.3899999, y: -3.6899998}
+      - {x: 3.7099998, y: -3.3999999}
+      - {x: 4.02, y: -3.04}
+      - {x: 4.3399997, y: -2.9399998}
+      - {x: 4.8399997, y: -2.4099998}
+      - {x: 4.8199997, y: -2.1}
+      - {x: 5.6, y: -2.1}
+      - {x: 5.97, y: -1.81}
+      - {x: 5.94, y: -1.23}
+      - {x: 5.77, y: -1.09}
+      - {x: 5.6099997, y: -0.77}
+      - {x: 3.52, y: 1.3}
+      - {x: 3.3999999, y: 1.4499999}
+      - {x: 3.25, y: 1.5699999}
+      - {x: 4.17, y: 1.56}
+      - {x: 4.2, y: 1.7199999}
+      - {x: 4.48, y: 1.74}
+      - {x: 4.5, y: 1.76}
+      - {x: 4.7999997, y: 1.9}
+      - {x: 4.8199997, y: 1.92}
+      - {x: 5.12, y: 2.06}
+      - {x: 5.2, y: 2.05}
+      - {x: 5.52, y: 2.37}
+      - {x: 6.2599998, y: 3.1999998}
+      - {x: 6.42, y: 3.31}
+      - {x: 6.6099997, y: 3.6699998}
+      - {x: 6.8999996, y: 4.64}
+      - {x: 6.8999996, y: 6.72}
+      - {x: 6.8799996, y: 6.74}
+      - {x: 6.74, y: 7.04}
+      - {x: 6.75, y: 7.12}
+      - {x: 6.43, y: 7.44}
+      - {x: 6.29, y: 7.54}
+      - {x: 5.94, y: 7.73}
+      - {x: 5.47, y: 7.8599997}
+      - {x: 5.2799997, y: 8.0199995}
+      - {x: 3.52, y: 8.0199995}
+      - {x: 3.5, y: 8}
+      - {x: 3.5, y: 7.8599997}
+      - {x: 3.04, y: 7.8599997}
+      - {x: 3.02, y: 7.8399997}
+      - {x: 2.72, y: 7.7}
+      - {x: 2.7, y: 7.68}
+      - {x: 2.3999999, y: 7.54}
+      - {x: 1.5799999, y: 6.72}
+      - {x: 1.5799999, y: 6.42}
+      - {x: 1.26, y: 6.45}
+      - {x: 1.0699999, y: 6.0899997}
+      - {x: 0.94, y: 5.97}
+      - {x: 0.75, y: 5.6099997}
+      - {x: 0.45999998, y: 4.64}
+      - {x: 0.45999998, y: 4.18}
+      - {x: -0.17, y: 4.19}
+      - {x: -0.56, y: 3.07}
+      - {x: -0.7, y: 2.61}
+      - {x: -1.04, y: 2.59}
+      - {x: -1.36, y: 2.27}
+      - {x: -4.5, y: -0.96}
+      - {x: -5.94, y: -2.3999999}
+      - {x: -5.94, y: -2.54}
+      - {x: -6.3999996, y: -2.54}
+      - {x: -6.74, y: -2.8799999}
+      - {x: -6.74, y: -3.36}
+      - {x: -2.58, y: -7.52}
+      - {x: -2.46, y: -7.71}
+      - {x: -1.78, y: -8.36}
+      - {x: -1.5, y: -8.5}
+      - {x: -1.27, y: -8.5}
+      - {x: -1.24, y: -8.49}
+      - {x: -1.1, y: -8.37}
+      - {x: -0.90999997, y: -8.01}
+      - {x: -0.62, y: -7.68}

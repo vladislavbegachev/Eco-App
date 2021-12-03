@@ -27,7 +27,7 @@ public class Draggable : MonoBehaviour
             }
             else //неправильно
             {
-                
+                Debug.Log("НЕПРАВИЛЬНО");
             }   
         }
     }

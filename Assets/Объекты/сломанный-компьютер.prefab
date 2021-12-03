@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 1540473809655407622}
   - component: {fileID: 4024279300148471371}
   - component: {fileID: 6052367096333564686}
-  - component: {fileID: -630450616028887586}
   - component: {fileID: 5560796697476981114}
+  - component: {fileID: -2108985227160584293}
   m_Layer: 6
   m_Name: "\u0441\u043B\u043E\u043C\u0430\u043D\u043D\u044B\u0439-\u043A\u043E\u043C\u043F\u044C\u044E\u0442\u0435\u0440"
   m_TagString: "\u044D\u043B\u0435\u043A\u0442\u0440\u043E\u043D\u0438\u043A\u0430"
@@ -97,23 +97,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbc3bc88a00922540b9b0fd300accce2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelController: {fileID: 0}
---- !u!58 &-630450616028887586
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7543430218390951485}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 10.24
 --- !u!50 &5560796697476981114
 Rigidbody2D:
   serializedVersion: 4
@@ -135,3 +118,47 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!60 &-2108985227160584293
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7543430218390951485}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.48, y: 20.48}
+    newSize: {x: 20.48, y: 20.48}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 2.8999999, y: -5.46}
+      - {x: 9.7699995, y: -5.47}
+      - {x: 10.099999, y: -5.17}
+      - {x: 10.099999, y: 8.099999}
+      - {x: 9.99, y: 8.53}
+      - {x: 9.57, y: 8.82}
+      - {x: -8.71, y: 8.82}
+      - {x: -8.99, y: 8.7}
+      - {x: -9.139999, y: 8.389999}
+      - {x: -9.139999, y: -5.17}
+      - {x: -9.03, y: -5.38}
+      - {x: -2.8, y: -7.71}
+      - {x: -3.84, y: -7.98}
+      - {x: -3.3999999, y: -8.97}
+      - {x: -3.24, y: -9.139999}
+      - {x: 3.73, y: -9.139999}
+      - {x: 4.08, y: -8.83}
+      - {x: 4.36, y: -7.99}
+      - {x: 3.1499999, y: -7.56}

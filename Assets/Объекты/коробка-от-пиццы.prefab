@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 2000127640177607440}
   - component: {fileID: 8511787998706020263}
   - component: {fileID: -3718847840065793960}
-  - component: {fileID: 2850903897896504572}
   - component: {fileID: -274408217061360724}
+  - component: {fileID: 3855354180196300576}
   m_Layer: 6
   m_Name: "\u043A\u043E\u0440\u043E\u0431\u043A\u0430-\u043E\u0442-\u043F\u0438\u0446\u0446\u044B"
   m_TagString: "\u0431\u0443\u043C\u0430\u0433\u0430"
@@ -97,23 +97,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbc3bc88a00922540b9b0fd300accce2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelController: {fileID: 0}
---- !u!58 &2850903897896504572
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3391337111456233188}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 10.24
 --- !u!50 &-274408217061360724
 Rigidbody2D:
   serializedVersion: 4
@@ -135,3 +118,32 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!60 &3855354180196300576
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391337111456233188}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.48, y: 20.48}
+    newSize: {x: 20.48, y: 20.48}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -8.98, y: 8.34}
+      - {x: -8.98, y: -8.179999}
+      - {x: 8.98, y: -8.179999}
+      - {x: 8.98, y: 8.34}
