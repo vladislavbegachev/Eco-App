@@ -7,27 +7,44 @@ using UnityEngine;
 
 public class Draggable : MonoBehaviour
 {
-    public static int progress = 0;
+    public static int progress;
+    void Start()
+    {
+        progress = 0;
+        LevelController.percentageHasChanged = false;
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
          if (other.gameObject.layer == 7)
          {
              if  (gameObject.tag != "органика" && gameObject.tag != "утилизация")   // специальное условие для бака с неорганикой на первом уровне
              {
+                 //Destroy(gameObject);
                  gameObject.SetActive(false);
+                 CheckSystem.checkCase = 1;
                  progress ++;
+                 LevelController.percentageHasChanged = true;
+             }
+             else
+             {
+                 CheckSystem.checkCase = 2;
+                 HeartSystem.health -= 1;
              }
          }
-        if (other.gameObject.layer == 3) //номер слоя, на котором находятся контейнеры
+        else if (other.gameObject.layer == 3) //номер слоя, на котором находятся контейнеры
         {
             if (gameObject.tag == other.tag) //правильно
             {
+                //Destroy(gameObject);
                 gameObject.SetActive(false);
+                CheckSystem.checkCase = 1;
                 progress ++;
+                LevelController.percentageHasChanged = true;
             }
             else //неправильно
             {
-                Debug.Log("НЕПРАВИЛЬНО");
+                CheckSystem.checkCase = 2;
+                HeartSystem.health -= 1;
             }   
         }
     }

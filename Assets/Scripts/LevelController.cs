@@ -6,8 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class LevelController : MonoBehaviour
 {
+    private float percentage;
+    public static string percentageString;
     public int NumberOfObjects;
+    private float timeRemaining = 2;
     static bool toMove;
+    public static bool percentageHasChanged;
     void Awake()
     {
         LevelController[] levelcontrollers = FindObjectsOfType<LevelController>();     // Проверка, если контроллеров больше, чем 1 на сцене
@@ -19,25 +23,53 @@ public class LevelController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+      percentageString = "0";
     }
 
     // Update is called once per frame
     void Update()
     {
-         if (Draggable.progress == NumberOfObjects)
+        if (HeartSystem.health == 0)
+        {
+          if (timeRemaining > 0)
+          {
+                timeRemaining -= Time.deltaTime;
+          }
+          else
+          {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+          }          
+        }
+        if (percentageHasChanged)
+        {
+          ChangingPercentage();
+        }
+        if (Draggable.progress == NumberOfObjects)
         {
           toMove = true;
           Draggable.progress = 0;
-          Next();
+        }
+        if (toMove == true)
+        {
+          if (timeRemaining > 0)
+          {
+                timeRemaining -= Time.deltaTime;
+          }
+          else
+          {
+            GoToNext();
+          }
         }
       }
-    void Next()
+    void GoToNext()
+    {            
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        toMove = false;
+    }
+    void ChangingPercentage()
     {
-        if (toMove)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            toMove = false;
-        }
+      percentage = ((float) Draggable.progress / NumberOfObjects) * 100;
+      percentageString = percentage.ToString("#");
+      percentageHasChanged = false;
     }
 }

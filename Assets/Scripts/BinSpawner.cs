@@ -22,7 +22,7 @@ public class BinSpawner : MonoBehaviour
         MeshCollider c = quad.GetComponent<MeshCollider>();
 
         float screenX = transform.position.x;
-        float screenY = c.bounds.min.y + 2; 
+        float screenY = c.bounds.min.y + 1.5f; 
         Vector2 pos;
 
         for (int i = 0; i < numberToSpawn; i++)
