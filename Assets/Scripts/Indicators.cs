@@ -40,7 +40,7 @@ public class Indicators : MonoBehaviour
                 ToIndicate(3, "Средняя");
                 break;
             case 8:
-                ToIndicate(3, "Тяжелая");
+                ToIndicate(3, "Невозможная");
                 break;
             case 9:
                 ToIndicate(4, "Легкая");
