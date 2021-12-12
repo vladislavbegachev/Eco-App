@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -8581182935941726179}
   m_Layer: 6
   m_Name: "\u0440\u0430\u0437\u0431\u0438\u0442\u043E\u0435-\u0437\u0435\u0440\u043A\u0430\u043B\u043E"
-  m_TagString: "\u0441\u0442\u0435\u043A\u043B\u043E"
+  m_TagString: "\u043D\u0435\u043F\u0435\u0440\u0435\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u0435\u043C\u044B\u0435"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

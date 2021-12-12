@@ -15,40 +15,40 @@ public class Indicators : MonoBehaviour
         Level = SceneManager.GetActiveScene().buildIndex;
         switch (Level)
         {
-            case 0:
+            case 3:
                 ToIndicate(1, "Легкая");
                 break;
-            case 1:
+            case 4:
                 ToIndicate(1, "Средняя");
                 break;
-            case 2:
+            case 5:
                 ToIndicate(1, "Тяжелая");
                 break;
-            case 3:
+            case 6:
                 ToIndicate(2, "Легкая");
                 break;
-            case 4:
+            case 7:
                 ToIndicate(2, "Средняя");
                 break;
-            case 5:
+            case 8:
                 ToIndicate(2, "Тяжелая");
                 break;
-            case 6:
+            case 9:
                 ToIndicate(3, "Легкая");
                 break;
-            case 7:
+            case 10:
                 ToIndicate(3, "Средняя");
                 break;
-            case 8:
-                ToIndicate(3, "Тяжелая");
+            case 11:
+                ToIndicate(3, "Невозможная");
                 break;
-            case 9:
+            case 141:
                 ToIndicate(4, "Легкая");
                 break;
-            case 10:
+            case 134:
                 ToIndicate(4, "Средняя");
                 break;
-            case 11:
+            case 1241:
                 ToIndicate(4, "Невозможная");
                 break;            
         }

@@ -71,11 +71,17 @@ public class DragController : MonoBehaviour
     void Drag()
     {
         _lastDragged.transform.position = new Vector2(_worldPosition.x, _worldPosition.y);
+        if (Draggable._resetObject == true)
+        {
+            _lastDragged.transform.position = new Vector2(0f, 0f);
+            Drop();
+        }
     }
 
     void Drop()
     {
         _isDragActive = false;
+        Draggable._resetObject = false;
     }
 
 }

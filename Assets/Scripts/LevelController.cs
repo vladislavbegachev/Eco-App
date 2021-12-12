@@ -62,9 +62,16 @@ public class LevelController : MonoBehaviour
         }
       }
     void GoToNext()
-    {            
+    {      
+        if (SceneManager.GetActiveScene().buildIndex == 11)
+        {
+          SceneManager.LoadScene(0);
+        }
+        else
+        {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        toMove = false;
+        toMove = false;            
+        }
     }
     void ChangingPercentage()
     {
