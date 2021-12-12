@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 // Скрипт, определяющий свойства объектов мусора
 // Скрипт должен быть привязан к объекту, который нужно перетаскивать.
 

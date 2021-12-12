@@ -40,7 +40,7 @@ public class Indicators : MonoBehaviour
                 ToIndicate(3, "Средняя");
                 break;
             case 8:
-                ToIndicate(3, "Невозможная");
+                ToIndicate(3, "Тяжелая");
                 break;
             case 9:
                 ToIndicate(4, "Легкая");
@@ -62,6 +62,6 @@ public class Indicators : MonoBehaviour
     }
     void ToIndicate(int level, string difficulty)
     {
-        LevelTexting.GetComponent<Text>().text = $"Уровень: {level - 1}\nCложность: {difficulty}";
+        LevelTexting.GetComponent<Text>().text = $"Уровень: {level}\nCложность: {difficulty}";
     }
 }

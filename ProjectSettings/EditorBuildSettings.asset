@@ -6,51 +6,51 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: "Assets/\u0423\u0440\u043E\u0432\u043D\u0438/MainMenu.unity"
-    guid: 9ba4ef12f2c2e8e4aae14a28c47149cc
+    path: Assets/Scenes/MainMenu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: "Assets/\u0423\u0440\u043E\u0432\u043D\u0438/Levels.unity"
-    guid: c81151e8fc0c7db4f8d4fc04cb8f063e
+    path: Assets/Scenes/Info.unity
+    guid: 5aa4145faf5f2c042b3a16e89c28fa75
   - enabled: 1
-    path: "Assets/\u0423\u0440\u043E\u0432\u043D\u0438/Info.unity"
-    guid: 6b5bce20a89687e49ad1fd4fcc8b4350
+    path: Assets/Scenes/Levels.unity
+    guid: c03b329ac97a39c468330cd66180775f
   - enabled: 1
-    path: "Assets/\u0423\u0440\u043E\u0432\u043D\u0438/Level 1 \u0430.unity"
+    path: "Assets/Scenes/Level 1 \u0430.unity"
     guid: 487aacfd3851d9d40a91b90b01e5f6cd
   - enabled: 1
-    path: "Assets/\u0423\u0440\u043E\u0432\u043D\u0438/Level 1 b.unity"
+    path: Assets/Scenes/Level 1 b.unity
     guid: c3832a8fbfefbec479927c5acfde10ef
   - enabled: 1
-    path: "Assets/\u0423\u0440\u043E\u0432\u043D\u0438/Level 1 c.unity"
+    path: Assets/Scenes/Level 1 c.unity
     guid: 64a7ccfaa3e8c7047ad7911363e1eb06
   - enabled: 1
-    path: "Assets/\u0423\u0440\u043E\u0432\u043D\u0438/Level 2 a.unity"
+    path: Assets/Scenes/Level 2 a.unity
     guid: 2ab833d4eff3ff6429fd0423293f285e
   - enabled: 1
-    path: "Assets/\u0423\u0440\u043E\u0432\u043D\u0438/Level 2 b.unity"
+    path: Assets/Scenes/Level 2 b.unity
     guid: e8ef1f732b3d7d741b804c5a030d3039
   - enabled: 1
-    path: "Assets/\u0423\u0440\u043E\u0432\u043D\u0438/Level 2 c.unity"
+    path: Assets/Scenes/Level 2 c.unity
     guid: 90f0d3c18a103154e9f5b84ceb1c971c
   - enabled: 1
-    path: "Assets/\u0423\u0440\u043E\u0432\u043D\u0438/Level 3 a.unity"
+    path: Assets/Scenes/Level 3 a.unity
     guid: 88880cc913af3a4428fa70240620c68a
   - enabled: 1
-    path: "Assets/\u0423\u0440\u043E\u0432\u043D\u0438/Level 3 b.unity"
+    path: Assets/Scenes/Level 3 b.unity
     guid: 2352084ebe7e82e4e877b21816a39073
   - enabled: 1
-    path: "Assets/\u0423\u0440\u043E\u0432\u043D\u0438/Level 3 c.unity"
+    path: Assets/Scenes/Level 3 c.unity
     guid: 42fe22505c22ac14bb95cbcca9cf6937
   - enabled: 0
-    path: "Assets/\u0423\u0440\u043E\u0432\u043D\u0438/Level 4 a.unity"
+    path: Assets/Scenes/Level 4 a.unity
     guid: 07f06614a0299324d9195f47b3cf682a
   - enabled: 0
-    path: "Assets/\u0423\u0440\u043E\u0432\u043D\u0438/Level 4 b.unity"
+    path: Assets/Scenes/Level 4 b.unity
     guid: 2347632443b643a43a97f407dfe55615
   - enabled: 0
-    path: "Assets/\u0423\u0440\u043E\u0432\u043D\u0438/Level 4 c.unity"
+    path: Assets/Scenes/Level 4 c.unity
     guid: 60fc341d02b50d34d9d02c1fdf88a4bb
-  m_configObjects:
-    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 8f8c8fffe40737844b5d70d186224089, type: 2}
-    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 274f517ccaf9aab409f2eb8a461e68a6, type: 2}
-    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: a410f89e509cf9549981c4d05727bb10, type: 2}
+  m_configObjects: {}
