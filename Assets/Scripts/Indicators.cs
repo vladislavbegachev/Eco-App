@@ -62,6 +62,6 @@ public class Indicators : MonoBehaviour
     }
     void ToIndicate(int level, string difficulty)
     {
-        LevelTexting.GetComponent<Text>().text = $"Уровень: {level}\nCложность: {difficulty}";
+        LevelTexting.GetComponent<Text>().text = $"Уровень: {level}\nCложность:\n{difficulty}";
     }
 }

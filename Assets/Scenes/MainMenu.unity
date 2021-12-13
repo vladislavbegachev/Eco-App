@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -355, y: 186}
-  m_SizeDelta: {x: 54.6328, y: 52.6668}
+  m_AnchoredPosition: {x: -862.37164, y: 450.96753}
+  m_SizeDelta: {x: 165.8895, y: 142.7319}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &105629801
 MonoBehaviour:
@@ -381,9 +381,9 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -559,8 +559,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 106}
-  m_SizeDelta: {x: 161.1467, y: 50.6406}
+  m_AnchoredPosition: {x: 2.4597, y: 256.85}
+  m_SizeDelta: {x: 1098.5985, y: 194.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &557253382
 MonoBehaviour:
@@ -639,8 +639,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.9, y: -52.6321}
-  m_SizeDelta: {x: 450.73, y: 70.4781}
+  m_AnchoredPosition: {x: 4.1318, y: -121.8958}
+  m_SizeDelta: {x: 1169, y: 168.2698}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &628129683
 MonoBehaviour:
@@ -810,8 +810,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.9009, y: -148.6738}
-  m_SizeDelta: {x: 450.7313, y: 64.7384}
+  m_AnchoredPosition: {x: 4.1315, y: -352.268}
+  m_SizeDelta: {x: 1168.9944, y: 169.2744}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1195829040
 MonoBehaviour:
@@ -1040,6 +1040,10 @@ PrefabInstance:
     - target: {fileID: 5719572969287309765, guid: e7fff6d1b4a863446bb5e33f5bc43152, type: 3}
       propertyPath: m_Name
       value: AudioManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5719572969287309767, guid: e7fff6d1b4a863446bb5e33f5bc43152, type: 3}
+      propertyPath: Mute
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5719572969287309784, guid: e7fff6d1b4a863446bb5e33f5bc43152, type: 3}
       propertyPath: m_RootOrder
