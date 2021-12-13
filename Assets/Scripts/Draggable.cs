@@ -17,6 +17,7 @@ public class Draggable : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log("HIT");
          if (other.gameObject.layer == 7)
          {
              if  (gameObject.tag != "органика" && gameObject.tag != "утилизация")   // специальное условие для бака с неорганикой на первом уровне

@@ -1,5 +1,49 @@
 sceneSetups:
-- path: Assets/Scenes/Level 2 a.unity
+- path: Assets/Scenes/Level 1 c.unity
   isLoaded: 1
   isActive: 1
+  isSubScene: 0
+- path: Assets/Scenes/Level 1 b.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: "Assets/Scenes/Level 1 \u0430.unity"
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Level 2 a.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Level 2 b.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Level 2 c.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Level 3 a.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Level 3 b.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Level 3 c.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Level 4 a.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Level 4 b.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Level 4 c.unity
+  isLoaded: 1
+  isActive: 0
   isSubScene: 0
