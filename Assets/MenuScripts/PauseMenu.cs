@@ -29,7 +29,6 @@ public class PauseMenu : MonoBehaviour
     {
         pauseMenuUI.SetActive(false);
         Indicators.SetActive(true);
-        Time.timeScale = 1f;
         GameIsPaused = false;
     }
 
@@ -37,7 +36,6 @@ public class PauseMenu : MonoBehaviour
     {
         pauseMenuUI.SetActive(true);
         Indicators.SetActive(false);
-        Time.timeScale = 0f;
         GameIsPaused = true;
     }
 

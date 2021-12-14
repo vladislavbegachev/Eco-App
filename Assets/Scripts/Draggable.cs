@@ -12,6 +12,7 @@ public class Draggable : MonoBehaviour
     public static int progress;
     void Start()
     {
+        Debug.Log("script started");
         progress = 0;
         LevelController.percentageHasChanged = false;
     }

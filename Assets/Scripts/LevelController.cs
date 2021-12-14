@@ -10,6 +10,7 @@ public class LevelController : MonoBehaviour
     public static string percentageString;
     public int NumberOfObjects;
     private float timeRemaining = 2;
+    private bool _reload_bool;
     static bool toMove;
     public static bool percentageHasChanged;
     void Awake()
@@ -19,6 +20,7 @@ public class LevelController : MonoBehaviour
         {
             Destroy(gameObject); // Удалить лишние контроллеры
         }
+        _reload_bool = true;
     }
     // Start is called before the first frame update
     void Start()
@@ -37,7 +39,10 @@ public class LevelController : MonoBehaviour
           }
           else
           {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            if (_reload_bool)
+            {
+              Reload();
+            }
           }          
         }
         if (percentageHasChanged)
@@ -61,6 +66,11 @@ public class LevelController : MonoBehaviour
           }
         }
       }
+    void Reload()
+    {
+      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+      _reload_bool = false;
+    }
     void GoToNext()
     {      
         if (SceneManager.GetActiveScene().buildIndex == 11)
